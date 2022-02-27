@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #e0e8ff;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.summary {
+  margin: 150px auto;
+  width: 100%;
+  max-width: 375px;
+  text-align: center;
+}
+
+.summary__container {
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.summary__img {
+  width: 100%;
+  height: 100%;
+}
+
+.summary__bottom {
+  padding: 2em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.summary__title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.summary__text {
+  font-size: 16px;
+  text-align: center;
+  color: gray;
+}
+
+.summary__plan {
+  border-radius: 8px;
+  padding: 1.3em 0.1em;
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.8rem;
+  background-color: #f5f7ff;
+}
+
+.summary__music-icon {
+  margin-left: 0.5em;
+  width: 2rem;
+  height: 2rem;
+}
+
+.summary__plan-btn {
+  padding: 1em 2em;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 700;
+  border: none;
+  background: none;
+  border-radius: 9px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.summary__plan-btn:hover {
+  color: #1f2f56;
+}
+
+.summary__btn-proceed {
+  margin: 1em;
+  padding: 1em 2em;
+  border-radius: 8px;
+  color: white;
+  background-color: #3829e0;
+  cursor: pointer;
+}
+
+.summary__btn-cancel {
+  color: #7280a7;
+  background-color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+}
+
+.summary__btn-cancel:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */

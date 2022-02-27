@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Red Hat Display', sans-serif;
+	background-color: hsl(225, 100%, 94%);
+	background-image: url(../images/pattern-background-mobile.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+.summary {
+	margin: 150px auto;
+	width: 100%;
+	max-width: 375px;
+	text-align: center;
+
+	&__container {
+		border-radius: 10px;
+		background-color: white;
+		overflow: hidden;
+	}
+	&__img {
+		width: 100%;
+		height: 100%;
+	}
+	&__bottom {
+		padding: 2em 1em;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		text-align: center;
+	}
+	&__title {
+		font-size: 30px;
+		font-weight: 900;
+		margin-bottom: 1em;
+	}
+	&__text {
+		font-size: 16px;
+		text-align: center;
+		color: rgb(128, 128, 128);
+	}
+
+	&__plan {
+		// border: 1px solid red;
+		border-radius: 8px;
+		padding: 1.3em 0.1em;
+		margin: 1em auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.8rem;
+		background-color: hsl(225, 100%, 98%);
+	}
+	&__music-icon {
+		margin-left: 0.5em;
+		width: 2rem;
+		height: 2rem;
+	}
+	&__plan-btn {
+		padding: 1em 2em;
+		align-items: flex-end;
+		font-weight: 700;
+		border: none;
+		background: none;
+		border-radius: 9px;
+		font-size: 0.8rem;
+		cursor: pointer;
+
+		&:hover {
+			color: hsl(223, 47%, 23%);
+		}
+	}
+	&__btn-proceed {
+		margin: 1em;
+		padding: 1em 2em;
+		border-radius: 8px;
+		color: white;
+		background-color: hsl(245, 75%, 52%);
+		cursor: pointer;
+	}
+	&__btn-cancel {
+		color: hsl(224, 23%, 55%);
+		background-color: #fff;
+		font-weight: 900;
+		font-size: 14px;
+		border: 1px solid transparent;
+		background: none;
+		cursor: pointer;
+		&:hover {
+			color: hsl(223, 47%, 23%);
+		}
+	}
+}
